@@ -5,6 +5,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 
 public class SingtonTest {
 	public static void main(String[] args) {
+		System.out.println("单例模式=====");
 		Set<Sington> set = new CopyOnWriteArraySet<Sington>();
 		for (int i = 0; i < 10000; i++) {
 			new Thread(() -> {

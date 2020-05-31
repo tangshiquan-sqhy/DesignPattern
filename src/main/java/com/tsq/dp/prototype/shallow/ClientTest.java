@@ -2,6 +2,7 @@ package com.tsq.dp.prototype.shallow;
 
 public class ClientTest {
     public static void main(String[] args) throws CloneNotSupportedException {
+        System.out.println("原型模式之浅拷贝=======");
         Sheep sheep = new Sheep("山羊", 2, "黑色");
         sheep.setFriend(new Sheep("绵羊", 3, "白色"));
         Sheep sheep2 = (Sheep) sheep.clone();
