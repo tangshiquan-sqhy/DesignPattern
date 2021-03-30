@@ -1,0 +1,1 @@
+工厂模式是根据不同的需要创建出不同的bean对象。最典型的应用便是spring的beanFactory。

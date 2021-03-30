@@ -12,7 +12,7 @@ public class HouseDirector {
     }
 
     public House constructHouse() {
-        builder.buildBasic();;
+        builder.buildBasic();
         builder.buildWall();
         builder.roofed();
         return builder.createHouse();
