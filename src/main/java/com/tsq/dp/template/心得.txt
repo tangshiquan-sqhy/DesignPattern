@@ -1,0 +1,3 @@
+模板方法模式：定义一个算法的步骤骨架，公共的部分在抽象类中实现，具体的业务留给子类实现。
+经典应用：SpringMVC注解版配置原理
+AbstractAnnotationConfigDispatcherServletInitializer -> AbstractDispatcherServletInitializer -> AbstractContextLoaderInitializer ---> WebApplicationInitializer
