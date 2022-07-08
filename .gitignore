@@ -1,0 +1,7 @@
+.classpath
+.project
+.gitattributes
+/target
+/src/test
+.idea
+DesignPattern.iml
